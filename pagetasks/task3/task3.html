@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+<style>
+    .text { font-size: 15px; margin-top: 3px; margin-bottom: 3px;}
+
+    .edit1, .edit2, .edit3, .edit4, .edit5, .edit6, .edit7, .edit8, .edit9, .edit10 { margin-top: 3px; }
+    .edit1, .edit6 {margin-left: 51px;}
+    .edit2, .edit7 {margin-left: 41px;}
+    .edit3, .edit8 {margin-left: 57px;}
+    .edit4, .edit9 {margin-left: 53px; width: 100px;}
+    .edit5, .edit10 {margin-left: 62px; width: 100px;}
+    .edit6, .edit7, .edit8 {width: 240px}
+    .button1, .button2 {margin-top: 3px; margin-bottom: 3px;}
+    .selection1, .selection2 {margin-left: 19px; width: 120px;}
+
+</style>
+<body>
+    <p class=text>
+        Let us suppose this is for a magazine order. The next thing you want to add is a drop down list 
+        of magazine choices ( think up four or five ) and a pair of radio buttons for choosing the lenght 
+        of subscription...
+    <br><br>
+        Name:<input type="text" class=edit1 >
+    <br>
+        Adress: <input type="text" class=edit2 >
+    <br>
+        City:   <input type="text" class=edit3 >
+    <br>
+        State:  <input type="text" class=edit4 >
+    <br> 
+         Zip: <input type="text" class=edit5 >
+              <form action="">
+              <label for="Newsweek"></label>
+    Magazine: <select name="Newsweek" id="Newsweek" class=selection1>
+              <option value="monday">Monday</option>
+              <option value="tuesday">Tuesday</option>
+              <option value="wednesday">Wednesday</option>
+              <option value="thirsday">Thirsday</option>
+              <option value="friday">Friday</option>
+              <option value="saturday">Saturday</option>
+              <option value="sunday">Sunday</option>
+            </select>
+          </form>
+        Subscription: <input type="radio" id="1 year" name="subscription1" value="1 year"><label for="1 year">1 year</label> <input type="radio" id="2 year" name="subscription2" value="2 year"><label for="2 year">2 year</label> 
+        <br>
+        <button type="submit" class= button1>Send Your Order</button>
+        <br>
+        <a href="">VIEW THIS EXAMLE ON A PAGE BY ITSELF</a>
+    </p>
+    <hr>
+    <p class=text>
+        Lastly, make the Name, Adress and City boxes a little bigger and add a text area for Additional Coments...
+    <br><br>
+        Name:<input type="text" class=edit6 >
+    <br>
+        Adress: <input type="text" class=edit7 >
+    <br>
+        City:   <input type="text" class=edit8 >
+    <br>
+        State:  <input type="text" class=edit9 >
+    <br> 
+        Zip:    <input type="text" class=edit10 >
+    <br>
+       
+    <form action="">
+        <label for="Newsweek"></label>
+Magazine: <select name="Newsweek" id="Newsweek" class=selection2>
+          <option value="monday">Monday</option>
+          <option value="tuesday">Tuesday</option>
+          <option value="wednesday">Wednesday</option>
+          <option value="thirsday">Thirsday</option>
+          <option value="friday">Friday</option>
+          <option value="saturday">Saturday</option>
+          <option value="sunday">Sunday</option>
+        </select>
+      </form>
+        Subscription: <input type="radio" name="subscription1" id="subscription1">1 year<label for="subscription1"></label> <input type="radio" name="subscription2" id="subscription2">2 year<label for="subscription2"></label> 
+        <br>
+        Additional Coments:
+        <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br>
+        <button type="submit" class= button2>Send Your Order</button>
+        <br>
+        <a href="">VIEW THIS EXAMLE ON A PAGE BY ITSELF</a>
+        <p>Now <i>that is</i> a handsome form! Upload it, test it and make sure it works properly and sends you the data as expected.</p>
+    </p>
+</body>
+</html>
